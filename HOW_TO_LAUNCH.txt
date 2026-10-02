@@ -1,0 +1,25 @@
+DECCAN FIRM - HOW TO LAUNCH (NO HASSLE)
+
+OPTION 1 - DOUBLE CLICK (ALWAYS WORKS, NO INTERNET SERVER):
+  Double-click LAUNCH.bat OR index.html in this folder.
+  Works even if firewall blocks localhost. This is file:// and needs no server.
+
+OPTION 2 - PUBLIC LINK (WORKS ON ANY PHONE/PC, NO FIREWALL):
+  Drag this ENTIRE folder to https://app.netlify.com/drop
+  - Just open that link, drag the folder, done. You get https://deccanfirm-xxx.netlify.app
+  - Takes 10 seconds. Share that link with anyone.
+
+OPTION 3 - VERCEL (FOR deccanfirm.com DOMAIN):
+  Run in this folder: npx vercel --prod
+  Then add domain deccanfirm.com in Vercel dashboard.
+
+SHOPIFY:
+  Your current Shopify hd3izv-i0.myshopify.com returns 402 (store inactive/closed).
+  To connect:
+    1. Tell me your ACTIVE shopify domain (e.g. deccanfirm.myshopify.com)
+    2. I will wire all 8 products (iphone-leather etc) to buy buttons instantly.
+    3. Or I can create Shopify Buy Button embed for you.
+
+TROUBLESHOOTING:
+  If you see "127.0.0.1 refused" - ignore localhost, use LAUNCH.bat instead.
+  No install needed. Tailwind loads from CDN (needs internet first load).

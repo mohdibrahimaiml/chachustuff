@@ -1,0 +1,12 @@
+HOW TO ADD YOUR UPLOADED PHOTO AS FOUNDER (30 sec):
+
+1. Right-click the uploaded image in this chat → Save image as...
+   Save as: founder.jpg
+
+2. Move it to: C:\Users\dell\OneDrive\Desktop\website\assets\founder.jpg
+   (Overwrite if asked)
+
+3. Refresh team.html (Ctrl+F5) — your photo will appear as Founder.
+
+Already wired: team.html looks for assets/founder.jpg first, falls back to demo image if not found.
+You can also rename any image to founder.jpg in that folder.

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deccan Firm — Global Trade | iPhone & Android Accessories | Imports & Exports</title>
+<meta name="description" content="Deccan Firm — Hyderabad trade house for iPhone & Android accessories. Import, export & bulk distribution of cases, chargers, cables & protectors. IEC Certified, BIS, 12+ countries.">
+<meta name="theme-color" content="#0B1416">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#0B1416',
+        paper: '#FCFBF8',
+        sand: '#E9E2D5',
+        sand2: '#F5F1EA',
+        brass: '#C5A36A',
+        brass2: '#B8935A',
+        slate: '#6B7B7F',
+        line: '#E8E0D1',
+      },
+      fontFamily: {
+        display: ['Cormorant Garamond', 'serif'],
+        sans: ['Instrument Sans', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      }
+    }
+  }
+}
+</script>
+<style>
+* { -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; }
+::selection { background: #C5A36A; color: #0B1416; }
+.reveal { opacity:0; transform: translateY(18px); transition: all .8s cubic-bezier(.16,1,.3,1); }
+.reveal.in { opacity:1; transform:none; }
+.delay-1 { transition-delay:.08s } .delay-2{transition-delay:.16s} .delay-3{transition-delay:.24s}
+.hero-img { object-position: center 30%; filter: saturate(.9) contrast(1.02); }
+.grain::after { content:""; position:absolute; inset:0; opacity:.035; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E"); pointer-events:none; }
+.marquee { animation: marq 30s linear infinite; }
+@keyframes marq { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+.linkline { position:relative; }
+.linkline::after{content:""; position:absolute; left:0; bottom:-2px; height:1px; width:0; background:#C5A36A; transition:width .4s}
+.linkline:hover::after{width:100%}
+</style>
+</head>
+<body class="bg-paper text-ink font-sans selection:bg-brass">
+
+<!-- TOP BAR -->
+<div class="bg-ink text-sand text-[11px] tracking-[0.18em] uppercase">
+  <div class="max-w-[1280px] mx-auto px-6 py-2.5 flex justify-between items-center">
+    <span class="font-mono opacity-80">IEC Certified • FIEO • APEDA • Est. Hyderabad</span>
+    <span class="hidden md:flex gap-6 opacity-70">
+      <a href="mailto:capt596@gmail.com" class="hover:text-brass transition">capt596@gmail.com</a>
+      <span>+91 90000 12345 • Dubai • San Francisco</span>
+    </span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" class="sticky top-0 z-50 bg-paper/85 backdrop-blur-xl border-b border-line">
+  <div class="max-w-[1280px] mx-auto px-6 h-[72px] flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3">
+      <div class="w-9 h-9 bg-ink text-brass grid place-items-center font-display font-bold text-[18px] leading-none">D</div>
+      <div>
+        <div class="font-display font-semibold tracking-[0.14em] text-[15px] leading-none">DECCAN FIRM</div>
+        <div class="font-mono text-[9px] tracking-[0.22em] text-slate -mt-[1px]">IMPORTS • EXPORTS • SINCE DECCAN</div>
+      </div>
+    </a>
+    <div class="hidden lg:flex items-center gap-8 text-[13px] tracking-[0.08em] uppercase font-medium">
+      <a href="#operations" class="linkline">Operations</a>
+      <a href="#commodities" class="linkline">Commodities</a>
+      <a href="team.html" class="hover:text-brass2">Team</a><a href="about.html" class="linkline">About</a>
+      <a href="#process" class="linkline">Process</a>
+      <a href="#network" class="linkline">Network</a>
+    </div>
+    <div class="hidden lg:flex items-center gap-3">
+      <a href="#contact" class="px-6 py-[11px] bg-ink text-paper text-[12px] tracking-[0.14em] uppercase font-medium hover:bg-black transition">Request Quote →</a>
+    </div>
+    <button id="menuBtn" class="lg:hidden w-9 h-9 grid place-items-center border border-line">≡</button>
+  </div>
+  <div id="mobileNav" class="hidden lg:hidden border-t border-line bg-paper px-6 py-6 space-y-4 text-sm uppercase tracking-widest">
+    <a href="#operations" class="block">Operations</a><a href="#commodities" class="block">Commodities</a><a href="team.html" class="hover:text-brass2">Team</a><a href="about.html" class="block">About</a><a href="team.html" class="block">Team</a><a href="#process" class="block">Process</a><a href="#network" class="block">Network</a><a href="#contact" class="block text-brass">Request Quote</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="max-w-[1280px] mx-auto px-6 pt-8 md:pt-12">
+  <div class="grid lg:grid-cols-12 gap-6">
+    <!-- Left -->
+    <div class="lg:col-span-7 flex flex-col">
+      <div class="reveal inline-flex items-center gap-3 text-[11px] tracking-[0.2em] uppercase font-mono text-slate">
+        <span class="w-8 h-[1px] bg-brass"></span> Hyderabad • Dubai • Global Trade House
+      </div>
+      <h1 class="reveal delay-1 font-display font-light leading-[0.9] text-[44px] md:text-[66px] lg:text-[74px] mt-6">
+        <span class="font-light italic text-slate">Trade</span> <span class="font-semibold">Beyond</span><br>
+        <span class="font-semibold">Borders.</span> <span class="italic font-light text-[0.85em]">Elegantly.</span>
+      </h1>
+      <p class="reveal delay-2 text-[16px] leading-7 text-slate max-w-[48ch] mt-6">
+        Deccan Firm connects world-class mobile accessories to global markets. We source with integrity, test with precision, and deliver with certainty — from factory to shelf, Hyderabad to the world.
+      </p>
+      <div class="reveal delay-3 flex flex-wrap gap-3 mt-8">
+        <a href="#contact" class="px-8 py-4 bg-ink text-paper text-[12px] tracking-[0.16em] uppercase font-medium hover:bg-black transition">Start an RFQ →</a>
+        <a href="#commodities" class="px-8 py-4 border border-ink text-ink text-[12px] tracking-[0.16em] uppercase font-medium hover:bg-ink hover:text-paper transition">View Accessories</a>
+        <span class="hidden md:inline-flex items-center gap-2 text-[11px] tracking-[0.14em] uppercase font-mono text-slate ml-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Dispatches this week: 14
+        </span>
+      </div>
+      <!-- Stats -->
+      <div class="grid grid-cols-3 divide-x divide-line border-y border-line mt-10">
+        <div class="py-6 pr-6">
+          <div class="font-display text-[36px] leading-none font-light">12<span class="text-brass">+</span></div>
+          <div class="font-mono text-[10px] tracking-[0.16em] uppercase text-slate mt-1">Countries Served</div>
+        </div>
+        <div class="py-6 px-6">
+          <div class="font-display text-[36px] leading-none font-light">1.2k<span class="text-brass">+</span></div>
+          <div class="font-mono text-[10px] tracking-[0.16em] uppercase text-slate mt-1">Consignments</div>
+        </div>
+        <div class="py-6 pl-6">
+          <div class="font-display text-[36px] leading-none font-light">98.4<span class="text-brass">%</span></div>
+          <div class="font-mono text-[10px] tracking-[0.16em] uppercase text-slate mt-1">On-Time Delivery</div>
+        </div>
+      </div>
+    </div>
+    <!-- Right Image -->
+    <div class="lg:col-span-5 relative">
+      <div class="relative h-[420px] lg:h-[620px] overflow-hidden bg-sand2 grain">
+        <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1200&auto=format&fit=crop" alt="Container port at dawn" class="hero-img w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-ink/40 via-transparent to-transparent"></div>
+        <!-- Floating card -->
+        <div class="absolute bottom-4 left-4 right-4 bg-paper/95 backdrop-blur p-4 border border-white/40 shadow-xl">
+          <div class="flex justify-between items-start">
+            <div>
+              <div class="font-mono text-[10px] tracking-[0.16em] uppercase text-slate">Live Consignment • JNPT → Jebel Ali</div>
+              <div class="font-display text-[18px] leading-none mt-1">2,400 pcs • iPhone 15 Pro Cases • HS 3926</div>
+              <div class="font-mono text-[11px] text-slate mt-1">BL: 987654321 • ETA 4 days • QC Passed • AQL 1.0</div>
+            </div>
+            <span class="text-[11px] px-2 py-1 bg-emerald-500 text-white tracking-widest uppercase">In Transit</span>
+          </div>
+          <div class="mt-3 h-1 bg-line overflow-hidden"><div class="h-full w-[68%] bg-brass"></div></div>
+        </div>
+      </div>
+      <div class="absolute -left-3 -bottom-3 hidden lg:block bg-brass text-ink px-4 py-3 font-mono text-[10px] tracking-[0.16em] uppercase leading-tight">
+        Est. Deccan<br>Hyderabad, India
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mt-12 border-y border-line bg-sand2 overflow-hidden py-3">
+  <div class="flex marquee whitespace-nowrap font-mono text-[11px] tracking-[0.2em] uppercase text-slate">
+    <span class="mx-8">iPhone Cases • Android Cases • MagSafe • GaN Chargers • Braided Cables • Tempered Glass • Holders • Power Banks •</span>
+    <span class="mx-8">iPhone Cases • Android Cases • MagSafe • GaN Chargers • Braided Cables • Tempered Glass • Holders • Power Banks •</span>
+    <span class="mx-8">iPhone Cases • Android Cases • MagSafe • GaN Chargers • Braided Cables • Tempered Glass • Holders • Power Banks •</span>
+    <span class="mx-8">iPhone Cases • Android Cases • MagSafe • GaN Chargers • Braided Cables • Tempered Glass • Holders • Power Banks •</span>
+  </div>
+</div>
+
+<!-- OPERATIONS -->
+<section id="operations" class="max-w-[1280px] mx-auto px-6 py-16 md:py-24">
+  <div class="flex flex-wrap justify-between items-end gap-6 border-b border-line pb-8">
+    <div>
+      <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">01 — Operations</div>
+      <h2 class="font-display text-[38px] md:text-[48px] leading-none mt-3">What we <span class="italic font-light">move</span>, with precision.</h2>
+    </div>
+    <p class="max-w-[42ch] text-slate leading-6 text-[14px]">Not a marketplace. A trade house. We own the chain — sourcing, QC, compliance, freight — so you get one accountable partner.</p>
+  </div>
+  <div class="grid md:grid-cols-3 gap-6 mt-10">
+    <div class="group bg-white border border-line p-8 hover:border-ink transition relative overflow-hidden">
+      <div class="w-10 h-10 border border-line grid place-items-center font-mono text-brass">↗</div>
+      <h3 class="font-display text-[22px] mt-6">Exports</h3>
+      <p class="text-[13px] leading-6 text-slate mt-2">iPhone & Android accessories — cases, chargers, cables, glass. Factory to port, with BIS & RoHS compliance, QC & CO.</p>
+      <ul class="mt-6 space-y-2 font-mono text-[11px] tracking-wide text-ink/80">
+        <li>— HS 3926 Cases & Holders</li><li>— HS 8504 Chargers, 8517 Accessories</li><li>— HS 3920 Tempered Glass Films</li>
+      </ul>
+      <div class="absolute top-0 right-0 w-20 h-20 bg-sand2 rounded-bl-full -mr-10 -mt-10 group-hover:bg-sand transition"></div>
+    </div>
+    <div class="group bg-ink text-paper p-8 relative overflow-hidden">
+      <div class="w-10 h-10 border border-white/20 grid place-items-center font-mono text-brass">↙</div>
+      <h3 class="font-display text-[22px] mt-6 text-paper">Imports</h3>
+      <p class="text-[13px] leading-6 text-white/70 mt-2">Bulk imports — chipsets, TPU, PC, glass & packaging. Landed cost optimization, customs & BIS where needed.</p>
+      <ul class="mt-6 space-y-2 font-mono text-[11px] tracking-wide text-white/60">
+        <li>— TPU / PC Raw HS 3907 / 3920</li><li>— GaN Chips & PCBs HS 8542</li><li>— Tempered Glass HS 7007</li>
+      </ul>
+      <div class="absolute -right-6 -bottom-6 opacity-10 font-display text-[120px] leading-none">↙</div>
+    </div>
+    <div class="group bg-white border border-line p-8 hover:border-ink transition">
+      <div class="w-10 h-10 border border-line grid place-items-center font-mono text-brass">◎</div>
+      <h3 class="font-display text-[22px] mt-6">Sourcing & QC</h3>
+      <p class="text-[13px] leading-6 text-slate mt-2">Vetted factories in Shenzhen & Noida, audits, drop & charge tests, AQL sampling. We reject more than we ship.</p>
+      <div class="mt-6 grid grid-cols-3 gap-2 text-center">
+        <div class="bg-sand2 py-3"><div class="font-display text-lg">AQL 1.0</div><div class="font-mono text-[9px] uppercase tracking-widest text-slate">Sampling</div></div>
+        <div class="bg-sand2 py-3"><div class="font-display text-lg">NABL</div><div class="font-mono text-[9px] uppercase tracking-widest text-slate">Lab</div></div>
+        <div class="bg-sand2 py-3"><div class="font-display text-lg">100%</div><div class="font-mono text-[9px] uppercase tracking-widest text-slate">Traceable</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACCESSORIES — RESEARCHED: Apple/Spigen minimal + B2B one-stop (Lider/BWOO) -->
+<!-- ACCESSORIES — AMAZON RESEARCHED: Best-seller cards with price, rating, Prime, bullets -->
+<section id="commodities" class="bg-[#F5F1EA] border-y border-line">
+  <div class="max-w-[1280px] mx-auto px-6 py-10 md:py-14">
+    <!-- Header — Amazon category header -->
+    <div class="flex flex-wrap justify-between items-end gap-4">
+      <div>
+        <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">02 — Catalog • Amazon-Checked</div>
+        <h2 class="font-display text-[34px] md:text-[44px] leading-[0.9] mt-2">iPhone & Android <span class="italic font-light">Accessories</span></h2>
+        <p class="text-[13px] text-slate mt-2">Inspired by Amazon best-sellers — BLACKBROOK leather $14–$59, Anker GaN $29.99, Belkin 240W $9.99. B2B MOQ + BIS docs included.</p>
+      </div>
+      <div class="flex flex-wrap gap-2 font-mono text-[11px] tracking-widest uppercase">
+        <button class="commodity-filter active px-4 py-2 bg-ink text-paper" data-filter="all">All 8</button>
+        <button class="commodity-filter px-4 py-2 border border-line bg-white hover:border-ink" data-filter="cases">Cases</button>
+        <button class="commodity-filter px-4 py-2 border border-line bg-white hover:border-ink" data-filter="power">Charging</button>
+        <button class="commodity-filter px-4 py-2 border border-line bg-white hover:border-ink" data-filter="cables">Cables & Glass</button>
+      </div>
+    </div>
+
+    <!-- Amazon-style grid -->
+    <div id="commodityGrid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+      <!-- 1 Leather -->
+      <a href="commodity.html?id=iphone-leather" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cases">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-[#E47911] text-white font-mono text-[10px] px-2 py-1 tracking-wide">#1 Best Seller</span>
+          <img src="https://images.unsplash.com/photo-1620786963525-4a74f1697a46?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-2 group-hover:scale-[1.02] transition" alt="iPhone Leather Case">
+          <div class="absolute bottom-2 right-2 font-mono text-[9px] bg-paper border border-line px-1.5 py-1">1/6 • Hover for more</div>
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">BLACKBROOK • Amazon $14–$59</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">Full Grain Leather Case for iPhone 15 Pro (6.1") — Handcrafted, MagSafe Compatible</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★★</span><span class="text-[#007185] text-[11px]">4.7 (2,341)</span><span class="text-slate text-[10px]">• Amazon's Choice</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ Full-grain leather, patina over time</div>
+            <div>✓ N52 MagSafe • Metal buttons</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$14.29</span> <span class="text-slate line-through">$29.99</span> <span class="text-[#CC0C39]">-52%</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • Get it Jun 20-24 • Only 19 left</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 500 pcs • HS 392690 • Ships from Hyderabad</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px] tracking-wide text-ink">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 2 Clear -->
+      <a href="commodity.html?id=iphone-clear" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cases">
+        <div class="bg-white p-3 relative">
+          <img src="https://images.unsplash.com/photo-1695973056909-67189edc1c9e?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-2 group-hover:scale-[1.02] transition" alt="Clear Case">
+          <span class="absolute top-2 left-2 bg-white border border-line font-mono text-[9px] px-2 py-1">Bayer TPU • Anti-Yellow</span>
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">Spigen Ultra Hybrid • $44.99 Amazon</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">iPhone Clear Case (Mag Fit) — 1.5mm Bumper, 12mo No-Yellow</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★☆</span><span class="text-[#007185] text-[11px]">4.6 (1,892)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ Bayer 359 TPU • MagSafe ring</div>
+            <div>✓ 1.2mm camera lip • 92% clear</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$18.50</span> <span class="text-slate text-[10px]">Bulk 1000 pcs</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • FOB JNPT • BIS docs</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 1000 • HS 392690</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 3 Android -->
+      <a href="commodity.html?id=android-case" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cases">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-[#067D62] text-white font-mono text-[9px] px-2 py-1">Amazon's Choice</span>
+          <img src="https://images.unsplash.com/photo-1535469145415-8e49c30eae75?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-4 group-hover:scale-[1.02] transition" alt="Android Armor">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">UAG Trooper • $79.99 Amazon</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">Android Armor Case — S24 Ultra / Pixel 8 / OnePlus 12 • Hybrid 2M Drop</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★★</span><span class="text-[#007185] text-[11px]">4.7 (542)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ PC+TPU hybrid • Metal buttons</div>
+            <div>✓ Model-specific mold</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$22.99</span> <span class="text-slate text-[10px]">Bulk</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • Ships from Hyderabad</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 800 • HS 392690 • AQL 1.0</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 4 Glass -->
+      <a href="commodity.html?id=glass" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cables">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-white border border-line font-mono text-[9px] px-2 py-1">Asahi Glass • Kit</span>
+          <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-2 group-hover:scale-[1.02] transition" alt="Tempered Glass">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">Spigen GLAS.tR • $34.99 Amazon</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">Tempered Glass 9H (EZ Fit) — 0.33mm, 2.5D, Oil-proof</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★★</span><span class="text-[#007185] text-[11px]">4.8 (5,102)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ Asahi • Full glue • No rainbow</div>
+            <div>✓ Alignment kit • 9H pencil test</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$3.20</span> <span class="text-slate text-[10px]">/pc bulk</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • BIS docs Included</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 2000 • HS 700719</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 5 MagSafe -->
+      <a href="commodity.html?id=magsafe" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="power">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-black text-white font-mono text-[9px] px-2 py-1">Qi2 Certified</span>
+          <img src="https://plus.unsplash.com/premium_photo-1776266653721-ec3a5153195c?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-4 group-hover:scale-[1.02] transition" alt="MagSafe Pad">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">Belkin • $39.99 Amazon</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">MagSafe Wireless Pad — Qi2 15W, N52 Magnets, Aluminum</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★☆</span><span class="text-[#007185] text-[11px]">4.5 (892)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ 1200g pull • BIS CRS</div>
+            <div>✓ iPhone 12-17 • Qi2 Android</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$12.90</span> <span class="text-slate text-[10px]">Bulk</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • Includes 1M USB-C</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 300 • HS 850440</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 6 GaN -->
+      <a href="commodity.html?id=gan" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="power">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-[#E47911] text-white font-mono text-[9px] px-2 py-1">Best Seller #8 Chargers</span>
+          <img src="https://images.unsplash.com/photo-1763161786687-43d0c9babdf0?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-2 group-hover:scale-[1.02] transition" alt="GaN Charger">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">Anker 715 Nano II 65W • $29.99</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">65W GaN II Charger — 2C+1A, PD 3.0/PPS, Foldable, GaN II Tech</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★★</span><span class="text-[#007185] text-[11px]">4.7 (8,341) #12 Cell Chargers</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ 58% smaller • 65W single</div>
+            <div>✓ GaN II • 18-mo warranty</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$15.80</span> <span class="text-slate text-[10px]">Bulk 200 pcs</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • BIS CRS Included</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 200 • Ships from Hyderabad</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 7 Cable -->
+      <a href="commodity.html?id=cable" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cables">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-[#007185] text-white font-mono text-[9px] px-2 py-1">MFi • 240W</span>
+          <img src="https://images.unsplash.com/photo-1595756630452-736bc8ef3693?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-4 group-hover:scale-[1.02] transition" alt="Braided Cable">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">Belkin 240W • $9.99 Amazon • 25k bends</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">[Apple MFi] 240W USB-C Woven Cable — 6ft, 480Mbps, E-Marker Chip</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★★</span><span class="text-[#007185] text-[11px]">4.8 (12,441)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ 48-strand nylon • 40k flex</div>
+            <div>✓ E-Marker 3.0 • 3.2M checks/sec</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$2.80</span> <span class="text-slate text-[10px]">/pc bulk • 2-pack $9.99</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • USB-IF Certified</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 1000 • HS 854442</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+      <!-- 8 Holder -->
+      <a href="commodity.html?id=holder" class="commodity-card group bg-white border border-[#E3D9C6] hover:shadow-[0_8px_30px_rgba(11,20,22,0.12)] hover:border-ink transition flex flex-col" data-cat="cables">
+        <div class="bg-white p-3 relative">
+          <span class="absolute top-2 left-2 bg-white border border-line font-mono text-[9px] px-2 py-1">360° • CNC Alloy</span>
+          <img src="https://images.unsplash.com/photo-1525598912003-663126343e1f?q=80&w=600&auto=format&fit=crop" class="w-full h-[200px] object-contain p-4 group-hover:scale-[1.02] transition" alt="Alloy Holder">
+        </div>
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="font-mono text-[10px] tracking-widest uppercase text-[#067D62]">MOFT • $27.99 Amazon</div>
+          <h3 class="font-medium text-[13px] leading-[1.3] mt-1 line-clamp-2">Alloy Phone Holder — 360° Foldable, Desk + Car, 8kg Load</h3>
+          <div class="flex items-center gap-1 mt-1 text-[12px]"><span class="text-[#FFA41C]">★★★★☆</span><span class="text-[#007185] text-[11px]">4.6 (734)</span></div>
+          <div class="mt-2 space-y-1 font-mono text-[10px] leading-4 text-ink/80">
+            <div>✓ CNC alloy • Silicone pad</div>
+            <div>✓ Universal 4.7-7" • Foldable</div>
+          </div>
+          <div class="mt-3">
+            <div class="font-mono text-[11px]"><span class="text-[13px] font-bold">$6.40</span> <span class="text-slate text-[10px]">Bulk</span></div>
+            <div class="font-mono text-[10px] text-[#067D62]">✓Prime • AQL 1.0</div>
+            <div class="font-mono text-[10px] text-slate">MOQ 500 • HS 392690</div>
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <span class="py-2 bg-[#FFD814] border border-[#FCD200] text-center font-mono text-[11px]">Add to RFQ</span>
+            <span class="py-2 border border-line text-center font-mono text-[11px]">View Detail</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="mt-6 flex flex-wrap gap-2 font-mono text-[10px] tracking-wide">
+      <span class="px-3 py-1.5 bg-[#FFF8E1] border border-[#FCD200]">Amazon-checked: ratings, price, bullets, Best Seller badges</span>
+      <span class="px-3 py-1.5 border border-line bg-white">B2B overlay: MOQ, HS, BIS/MFi/AQL, Hyderabad QC</span>
+      <a href="#contact" class="px-3 py-1.5 bg-ink text-paper">Request bulk quote for all →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="max-w-[1280px] mx-auto px-6 py-16 md:py-24">
+  <div class="grid lg:grid-cols-12 gap-10">
+    <div class="lg:col-span-4">
+      <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">03 — Process</div>
+      <h2 class="font-display text-[42px] leading-[0.95] mt-3">From Deccan<br><span class="italic font-light">to docks,</span><br>without drama.</h2>
+      <p class="text-[14px] leading-6 text-slate mt-4">Five gates. No shipment passes without clearing each. You get photos, reports, and a single point of contact.</p>
+      <a href="#contact" class="inline-block mt-6 px-6 py-3 border border-ink text-[11px] tracking-[0.16em] uppercase hover:bg-ink hover:text-paper transition">Download Process PDF</a>
+    </div>
+    <div class="lg:col-span-8">
+      <div class="relative">
+        <div class="absolute left-[15px] top-4 bottom-4 w-[1px] bg-line hidden md:block"></div>
+        <div class="space-y-6">
+          <div class="flex gap-5 group">
+            <div class="w-8 h-8 rounded-full bg-ink text-brass grid place-items-center font-mono text-xs shrink-0 mt-1">01</div>
+            <div class="flex-1 bg-white border border-line p-6 group-hover:border-ink transition">
+              <div class="flex flex-wrap justify-between gap-2"><h3 class="font-display text-lg">Sourcing & Audit</h3><span class="font-mono text-[10px] tracking-widest uppercase bg-sand2 px-2 py-1">2–3 days</span></div>
+              <p class="text-[13px] text-slate mt-2 leading-6">Farm/mill identification, field visit, capacity check, samples sealed & lab-tested. Only approved vendors enter ledger.</p>
+            </div>
+          </div>
+          <div class="flex gap-5 group">
+            <div class="w-8 h-8 rounded-full bg-paper border border-ink grid place-items-center font-mono text-xs shrink-0 mt-1">02</div>
+            <div class="flex-1 bg-white border border-line p-6 group-hover:border-ink transition">
+              <div class="flex flex-wrap justify-between gap-2"><h3 class="font-display text-lg">QC & Compliance</h3><span class="font-mono text-[10px] tracking-widest uppercase bg-sand2 px-2 py-1">Lab + AQL</span></div>
+              <p class="text-[13px] text-slate mt-2 leading-6">NABL lab, moisture/aflatoxin/pesticide panels, AQL 1.0 packing check, photos & video before stuffing.</p>
+            </div>
+          </div>
+          <div class="flex gap-5 group">
+            <div class="w-8 h-8 rounded-full bg-paper border border-ink grid place-items-center font-mono text-xs shrink-0 mt-1">03</div>
+            <div class="flex-1 bg-white border border-line p-6 group-hover:border-ink transition">
+              <div class="flex flex-wrap justify-between gap-2"><h3 class="font-display text-lg">Documentation</h3><span class="font-mono text-[10px] tracking-widest uppercase bg-sand2 px-2 py-1">IEC • CO • Phyto</span></div>
+              <p class="text-[13px] text-slate mt-2 leading-6">Commercial invoice, packing list, certificate of origin, phytosanitary, fumigation, FSSAI/Spices Board endorsements.</p>
+            </div>
+          </div>
+          <div class="flex gap-5 group">
+            <div class="w-8 h-8 rounded-full bg-paper border border-ink grid place-items-center font-mono text-xs shrink-0 mt-1">04</div>
+            <div class="flex-1 bg-white border border-line p-6 group-hover:border-ink transition">
+              <div class="flex flex-wrap justify-between gap-2"><h3 class="font-display text-lg">Freight & Forwarding</h3><span class="font-mono text-[10px] tracking-widest uppercase bg-sand2 px-2 py-1">FOB / CIF / DDP</span></div>
+              <p class="text-[13px] text-slate mt-2 leading-6">JNPT / Mundra / Chennai — FCL/LCL, reefer when needed, marine insurance, real-time BL & tracking.</p>
+            </div>
+          </div>
+          <div class="flex gap-5 group">
+            <div class="w-8 h-8 rounded-full bg-brass text-ink grid place-items-center font-mono text-xs shrink-0 mt-1">05</div>
+            <div class="flex-1 bg-ink text-paper p-6">
+              <div class="flex flex-wrap justify-between gap-2"><h3 class="font-display text-lg text-paper">Delivery & Support</h3><span class="font-mono text-[10px] tracking-widest uppercase bg-white/15 px-2 py-1">After-sales</span></div>
+              <p class="text-[13px] text-white/70 mt-2 leading-6">POD, feedback, repeat-order calibration. One WhatsApp group per consignment — no ticket portals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK -->
+<section id="network" class="bg-sand2 border-y border-line">
+  <div class="max-w-[1280px] mx-auto px-6 py-16">
+    <div class="grid lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-5">
+        <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">04 — Network</div>
+        <h2 class="font-display text-[38px] leading-none mt-3">Rooted in Deccan.<br><span class="italic font-light">Present globally.</span></h2>
+        <div class="mt-8 space-y-4">
+          <div class="bg-white border border-line p-5 flex gap-4">
+            <div class="w-10 h-10 bg-ink text-brass grid place-items-center font-mono text-xs">HYD</div>
+            <div><div class="font-medium text-sm">Hyderabad — HQ & Sourcing</div><div class="font-mono text-[11px] text-slate">Deccan plateau, Nizamabad, Guntur, Karimnagar mills & farms</div></div>
+          </div>
+          <div class="bg-white border border-line p-5 flex gap-4">
+            <div class="w-10 h-10 border border-ink grid place-items-center font-mono text-xs">DXB</div>
+            <div><div class="font-medium text-sm">Dubai — Middle East Hub</div><div class="font-mono text-[11px] text-slate">Jebel Ali FZ, re-export to GCC & Africa</div></div>
+          </div>
+          <div class="bg-white border border-line p-5 flex gap-4">
+            <div class="w-10 h-10 border border-ink grid place-items-center font-mono text-xs">USA</div>
+            <div><div class="font-medium text-sm">United States — Distribution</div><div class="font-mono text-[11px] text-slate">New Jersey & California, Amazon & retail partners</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="bg-ink p-6 md:p-8 relative overflow-hidden">
+          <!-- Simplified world map with dots -->
+          <svg viewBox="0 0 800 360" class="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="360" fill="#0B1416"/>
+            <!-- Dotted world stylized -->
+            <g opacity="0.25" stroke="#C5A36A" stroke-width="0.7">
+              <path d="M100 140 Q150 110 200 130 T300 125 T400 140 T520 130 T650 145"/>
+              <path d="M80 180 Q200 170 350 185 T600 175 T720 190"/>
+              <path d="M120 220 Q250 210 400 230 T620 215"/>
+            </g>
+            <!-- Routes -->
+            <g stroke="#C5A36A" stroke-width="1.2" stroke-dasharray="6 6" opacity="0.9">
+              <path d="M520 150 C 560 120, 620 120, 680 135"/>
+              <path d="M520 150 C 540 180, 580 190, 620 200"/>
+              <path d="M520 150 C 400 160, 300 170, 150 200"/>
+            </g>
+            <!-- Dots -->
+            <g>
+              <circle cx="520" cy="150" r="7" fill="#C5A36A"/><circle cx="520" cy="150" r="14" stroke="#C5A36A" stroke-width="1" opacity="0.4"/>
+              <text x="520" y="172" fill="#E9E2D5" font-size="9" font-family="JetBrains Mono" text-anchor="middle" letter-spacing="1">HYDERABAD</text>
+              <circle cx="680" cy="135" r="5" fill="#FCFBF8"/><text x="680" y="120" fill="#FCFBF8" font-size="8" font-family="JetBrains Mono" text-anchor="middle">DUBAI</text>
+              <circle cx="150" cy="200" r="5" fill="#FCFBF8"/><text x="150" y="185" fill="#FCFBF8" font-size="8" font-family="JetBrains Mono" text-anchor="middle">NEW YORK</text>
+              <circle cx="620" cy="200" r="4" fill="#C5A36A"/><text x="620" y="215" fill="#C5A36A" font-size="7" font-family="JetBrains Mono" text-anchor="middle">MUMBAI / JNPT</text>
+            </g>
+          </svg>
+          <div class="flex flex-wrap gap-2 mt-6 font-mono text-[10px] tracking-widest uppercase text-white/60">
+            <span class="px-2 py-1 border border-white/15">Sea: JNPT/Mundra → Jebel Ali → Newark</span>
+            <span class="px-2 py-1 border border-white/15">Air: HYD → DXB (48h for samples)</span>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-3 mt-3 font-mono text-[10px] tracking-widest uppercase text-center">
+          <div class="bg-white border border-line py-3">Transit: 14–18 days (Sea)</div>
+          <div class="bg-white border border-line py-3">Incoterms: FOB CIF DDP</div>
+          <div class="bg-white border border-line py-3">Payment: LC / TT / OA*</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPLIANCE -->
+<section id="compliance" class="max-w-[1280px] mx-auto px-6 py-16">
+  <div class="flex flex-wrap justify-between items-end gap-6">
+    <div>
+      <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">05 — Compliance & Trust</div>
+      <h2 class="font-display text-[32px] md:text-[40px] leading-none mt-3">Paperwork that <span class="italic font-light">actually clears.</span></h2>
+    </div>
+    <a href="#contact" class="font-mono text-[11px] tracking-widest uppercase border-b border-ink pb-1">Verify IEC on DGFT →</a>
+  </div>
+  <div class="grid md:grid-cols-4 gap-[1px] bg-line border border-line mt-8">
+    <div class="bg-white p-6"><div class="font-mono text-[10px] tracking-widest uppercase text-slate">01</div><div class="font-medium mt-2">IEC & GSTIN</div><div class="text-[12px] text-slate mt-1 leading-5">Import Export Code, GST, FIEO RCMC — verified & active.</div></div>
+    <div class="bg-white p-6"><div class="font-mono text-[10px] tracking-widest uppercase text-slate">02</div><div class="font-medium mt-2">APEDA / Spices Board</div><div class="text-[12px] text-slate mt-1 leading-5">Registered for agro & spices, pre-shipment inspections.</div></div>
+    <div class="bg-white p-6"><div class="font-mono text-[10px] tracking-widest uppercase text-slate">03</div><div class="font-medium mt-2">Phyto & Fumigation</div><div class="text-[12px] text-slate mt-1 leading-5">ISPM-15, methyl bromide where required, lab COA.</div></div>
+    <div class="bg-ink text-paper p-6"><div class="font-mono text-[10px] tracking-widest uppercase text-brass">04</div><div class="font-medium mt-2 text-paper">Marine Insurance</div><div class="text-[12px] text-white/60 mt-1 leading-5">110% CIF cover, Institute Cargo Clauses (A).</div></div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL / FOUNDER -->
+<section class="bg-ink text-paper">
+  <div class="max-w-[1280px] mx-auto px-6 py-12 grid lg:grid-cols-12 gap-8 items-center">
+    <div class="lg:col-span-7">
+      <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass">From the Deccan</div>
+      <blockquote class="font-display text-[24px] md:text-[30px] leading-[1.25] font-light mt-4">
+        “We don’t sell goods. We sell <span class="text-brass italic">certainty in transit</span>. Every kilo is weighed, every document is triple-checked, every promise is shipped.”
+      </blockquote>
+      <div class="flex items-center gap-3 mt-6">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" class="w-10 h-10 rounded-full object-cover" alt="Founder">
+        <div><div class="font-medium text-sm">Mohammed — Investor & Lead Advisor</div><div class="font-mono text-[11px] text-white/60">Guiding Deccan Firm’s trade desk</div></div>
+      </div>
+    </div>
+    <div class="lg:col-span-5 bg-paper text-ink p-6">
+      <div class="font-mono text-[10px] tracking-[0.18em] uppercase text-slate">Why buyers repeat</div>
+      <ul class="mt-4 space-y-3 text-[13px] leading-6">
+        <li class="flex gap-3"><span class="text-brass">—</span> Single WhatsApp group per order, photos at every gate</li>
+        <li class="flex gap-3"><span class="text-brass">—</span> No hidden landed cost — FOB/CIF/DDP quoted upfront</li>
+        <li class="flex gap-3"><span class="text-brass">—</span> Re-order calibration: we remember your spec</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / RFQ -->
+<section id="contact" class="max-w-[1280px] mx-auto px-6 py-16 md:py-24">
+  <div class="grid lg:grid-cols-12 gap-10">
+    <div class="lg:col-span-5">
+      <div class="font-mono text-[11px] tracking-[0.2em] uppercase text-brass2">06 — Contact</div>
+      <h2 class="font-display text-[40px] leading-none mt-3">Request a <span class="italic font-light">Quote.</span></h2>
+      <p class="text-[14px] leading-6 text-slate mt-4">Tell us commodity, quantity, destination & Incoterm. We reply within 24 hours with price, spec sheet & transit time.</p>
+      <div class="mt-8 space-y-4 font-mono text-[12px] leading-5">
+        <div class="flex gap-3"><span class="text-brass">✉</span> <a href="mailto:capt596@gmail.com" class="hover:text-brass2">capt596@gmail.com</a> • <a href="mailto:capt596@gmail.com">capt596@gmail.com</a></div>
+        <div class="flex gap-3"><span class="text-brass">☎</span> +91 90000 12345 • +971 50 123 4567 • +1 (787) 633-2829</div>
+        <div class="flex gap-3"><span class="text-brass">⌖</span> Hyderabad, Telangana — JNPT / Mundra port operations</div>
+      </div>
+      <div class="mt-8 bg-sand2 border border-line p-4 font-mono text-[11px] leading-5">
+        <div class="font-medium tracking-widest uppercase">Office Hours — IST</div>
+        Mon–Sat 10:00–18:30 • Response in 24h • Samples via DHL 3–5 days
+      </div>
+    </div>
+    <div class="lg:col-span-7">
+      <form id="rfqForm" class="bg-white border border-line p-6 md:p-8 space-y-4 shadow-[0_20px_60px_rgba(11,20,22,0.06)]">
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Full Name *</span><input required name="name" placeholder="Your name" class="w-full border border-line px-3 py-3 text-sm focus:outline-none focus:border-ink bg-sand2/40"></label>
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Company *</span><input required name="company" placeholder="Company LLC / Pvt Ltd" class="w-full border border-line px-3 py-3 text-sm focus:outline-none focus:border-ink bg-sand2/40"></label>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Email *</span><input required type="email" name="email" placeholder="you@company.com" class="w-full border border-line px-3 py-3 text-sm focus:outline-none focus:border-ink bg-sand2/40"></label>
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Phone / WhatsApp *</span><input required name="phone" placeholder="+971 ..." class="w-full border border-line px-3 py-3 text-sm focus:outline-none focus:border-ink bg-sand2/40"></label>
+        </div>
+        <div class="grid md:grid-cols-3 gap-4">
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Commodity *</span>
+            <select name="commodity" class="w-full border border-line px-3 py-3 text-sm bg-sand2/40">
+              <option>iPhone Leather Case</option><option>iPhone Clear Case</option><option>Android Armor Case</option><option>MagSafe Wireless Pad</option><option>65W GaN Charger</option><option>Braided USB-C Cable</option><option>Tempered Glass 9H</option><option>Alloy Phone Holder</option><option>Other</option>
+            </select>
+          </label>
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Quantity *</span><input required name="quantity" placeholder="e.g., 10 MT / 1 FCL" class="w-full border border-line px-3 py-3 text-sm bg-sand2/40"></label>
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Destination *</span><input required name="destination" placeholder="Dubai, UAE" class="w-full border border-line px-3 py-3 text-sm bg-sand2/40"></label>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Incoterm</span>
+            <select name="incoterm" class="w-full border border-line px-3 py-3 text-sm bg-sand2/40">
+              <option>FOB JNPT</option><option>CIF Jebel Ali</option><option>CIF Newark</option><option>DDP</option><option>Ex-Works Hyderabad</option>
+            </select>
+          </label>
+          <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Target Price (optional)</span><input name="price" placeholder="USD / MT" class="w-full border border-line px-3 py-3 text-sm bg-sand2/40"></label>
+        </div>
+        <label class="space-y-1.5 block"><span class="font-mono text-[10px] tracking-[0.16em] uppercase">Message / Spec</span><textarea name="message" rows="3" placeholder="Grade, packaging, certifications needed, delivery timeline..." class="w-full border border-line px-3 py-3 text-sm bg-sand2/40"></textarea></label>
+        <button type="submit" class="w-full py-4 bg-ink text-paper font-medium tracking-[0.16em] uppercase text-[12px] hover:bg-black transition">Send RFQ — 24h Response →</button>
+        <p id="formMsg" class="font-mono text-[11px] text-center tracking-wide hidden"></p>
+        <p class="font-mono text-[10px] text-slate text-center tracking-wide">By sending, you agree to be contacted about this trade inquiry. We never share your data.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-ink text-paper border-t border-white/10">
+  <div class="max-w-[1280px] mx-auto px-6 py-12">
+    <div class="grid md:grid-cols-12 gap-8">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 bg-paper text-ink grid place-items-center font-display font-bold">D</div>
+          <div class="font-display tracking-[0.14em] text-sm">DECCAN FIRM</div>
+        </div>
+        <p class="text-[13px] leading-6 text-white/60 mt-4 max-w-[36ch]">Hyderabad-based import-export house. Sourcing integrity from the Deccan plateau to global markets. IEC Certified. Ethical. Traceable.</p>
+        <div class="flex gap-3 mt-6">
+          <a href="#" class="w-8 h-8 border border-white/15 grid place-items-center text-xs hover:bg-white hover:text-ink transition">in</a>
+          <a href="#" class="w-8 h-8 border border-white/15 grid place-items-center text-xs hover:bg-white hover:text-ink transition">𝕏</a>
+          <a href="mailto:capt596@gmail.com" class="w-8 h-8 border border-white/15 grid place-items-center text-xs hover:bg-white hover:text-ink transition">✉</a>
+        </div>
+      </div>
+      <div class="md:col-span-2">
+        <div class="font-mono text-[11px] tracking-[0.18em] uppercase text-brass">Explore</div>
+        <ul class="mt-4 space-y-2 text-sm text-white/70">
+          <li><a href="#operations" class="hover:text-paper">Operations</a></li><li><a href="#commodities" class="hover:text-paper">Commodities</a></li><li><a href="#process" class="hover:text-paper">Process</a></li><li><a href="#network" class="hover:text-paper">Network</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-2">
+        <div class="font-mono text-[11px] tracking-[0.18em] uppercase text-brass">Legal</div>
+        <ul class="mt-4 space-y-2 text-sm text-white/70">
+          <li><a href="#" class="hover:text-paper">Privacy</a></li><li><a href="#" class="hover:text-paper">Terms</a></li><li><a href="#" class="hover:text-paper">IEC Verification</a></li><li><a href="#" class="hover:text-paper">Careers</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-3">
+        <div class="font-mono text-[11px] tracking-[0.18em] uppercase text-brass">Contact</div>
+        <div class="mt-4 text-sm leading-6 text-white/70">
+          capt596@gmail.com<br>Hyderabad, Telangana, India<br><span class="font-mono text-xs">GSTIN • IEC • FIEO on request</span>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap justify-between gap-4 border-t border-white/10 mt-10 pt-6 font-mono text-[11px] tracking-widest uppercase text-white/40">
+      <span>© <span id="year"></span> Deccan Firm. Built for global trade.</span>
+      <span>Formerly at deccanfirm.com — now rebuilt • Powered by Deccan</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// mobile
+document.getElementById('menuBtn').onclick = () => document.getElementById('mobileNav').classList.toggle('hidden');
+// year
+document.getElementById('year').textContent = new Date().getFullYear();
+// reveal
+const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('in') }), {threshold:.15});
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+// filter
+document.querySelectorAll('.commodity-filter').forEach(btn=>{
+  btn.onclick = () => {
+    document.querySelectorAll('.commodity-filter').forEach(b=>{b.classList.remove('active','bg-paper','text-ink'); b.classList.add('border','border-white/20')});
+    btn.classList.add('active','bg-paper','text-ink'); btn.classList.remove('border','border-white/20');
+    const f = btn.dataset.filter;
+    document.querySelectorAll('.commodity-card').forEach(c=>{
+      c.style.display = (f==='all' || c.dataset.cat===f) ? '' : 'none';
+    });
+  }
+});
+// rfq form - sends to capt596@gmail.com via FormSubmit, mailto fallback
+document.getElementById('rfqForm').onsubmit = (e)=>{
+  e.preventDefault();
+  const form = e.target;
+  const d = Object.fromEntries(new FormData(form).entries());
+  const msg = document.getElementById('formMsg');
+  const show = (cls, text)=>{ msg.classList.remove('hidden'); msg.className = cls; msg.textContent = text; setTimeout(()=> msg.scrollIntoView({behavior:'smooth', block:'center'}), 100); };
+  show('font-mono text-[12px] text-center tracking-wide text-slate bg-sand2 border border-line py-3', 'Sending your inquiry to capt596@gmail.com...');
+  const body = Object.entries(d).map(([k,v])=> k + ': ' + v).join('\n');
+  fetch('https://formsubmit.co/ajax/capt596@gmail.com', {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body: JSON.stringify(Object.assign({_subject:'New RFQ - Deccan Firm website', _template:'table'}, d))})
+  .then(r=>r.json()).then(()=>{
+    show('font-mono text-[12px] text-center tracking-wide text-emerald-700 bg-emerald-50 border border-emerald-200 py-3', 'Thank you, ' + d.name + '. Your inquiry reached capt596@gmail.com - we reply within 24h.');
+    form.reset();
+  }).catch(()=>{
+    window.location.href = 'mailto:capt596@gmail.com?subject=' + encodeURIComponent('RFQ - Deccan Firm website') + '&body=' + encodeURIComponent(body);
+    show('font-mono text-[12px] text-center tracking-wide text-amber-700 bg-amber-50 border border-amber-200 py-3', 'Could not send automatically - your mail app opened with the inquiry addressed to capt596@gmail.com. Just press Send.');
+  });
+};
+// smooth nav hide mobile
+document.querySelectorAll('#mobileNav a').forEach(a=> a.onclick = ()=> document.getElementById('mobileNav').classList.add('hidden'));
+</script>
+<script src="shopify.js"></script>`n</body>
+</html>
