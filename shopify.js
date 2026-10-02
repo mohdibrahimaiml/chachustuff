@@ -3,13 +3,13 @@ window.DECCAN_SHOPIFY = {
   ENABLED: false,
   PRODUCTS: {
     "iphone-leather": { handle: "iphone-leather-case" },
+    "iphone-silicone": { handle: "iphone-silicone-case" },
     "iphone-clear": { handle: "iphone-clear-case" },
-    "android-case": { handle: "android-armor-case" },
-    "magsafe": { handle: "magsafe-wireless-pad" },
+    "iphone-rugged": { handle: "iphone-rugged-case" },
+    "magsafe-wallet": { handle: "magsafe-wallet-stand" },
+    "station-3in1": { handle: "3-in-1-charging-station" },
     "gan": { handle: "65w-gan-charger" },
-    "cable": { handle: "braided-usb-c-cable" },
-    "glass": { handle: "tempered-glass-9h" },
-    "holder": { handle: "alloy-phone-holder" }
+    "cable": { handle: "braided-usb-c-cable" }
   }
 };
 function shopifyBuyLink(handle){
